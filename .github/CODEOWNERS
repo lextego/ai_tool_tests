@@ -1,5 +1,6 @@
 # Set default owners for all files
-* @RobReeveLexTego @curlyreeve
+* @RobReeveLexTego
+* @curlyreeve
 
 # Example: Assign owners to specific file types (optional)
 *.md @RobReeveLexTego @curlyreeve
