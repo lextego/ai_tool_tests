@@ -1,2 +1,6 @@
 # Only LexTego team members can approve or merge pull requests
-* @lextego/devs
+* @RobReeveLexTego
+* @curlyreeve
+
+# Assign owners to specific file types (optional)
+*.md @RobReeveLexTego @curlyreeve
