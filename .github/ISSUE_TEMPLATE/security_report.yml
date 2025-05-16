@@ -1,0 +1,48 @@
+name: 🔐 Security Report
+description: Privately report a potential vulnerability or concern
+title: "[Security] Brief description of the issue"
+labels: [security, confidential]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Please avoid including any real credentials, tokens, or passwords in this report.
+        Use this form to notify us of security or privacy issues found in this repository.
+
+  - type: input
+    id: tool-affected
+    attributes:
+      label: Affected Tool or Section
+      placeholder: e.g. Joggr, Komment, Output File XYZ
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Description
+      placeholder: Describe the vulnerability or concern you found.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to Reproduce (if applicable)
+      placeholder: Steps, screenshots, or file references
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggested Fix or Mitigation
+      placeholder: Optional – what could we do to address it?
+
+  - type: checkboxes
+    id: confidentiality
+    attributes:
+      label: Confidentiality
+      options:
+        - label: I confirm this issue should not be publicly visible and contains potentially sensitive or security-related content.
+          required: true
