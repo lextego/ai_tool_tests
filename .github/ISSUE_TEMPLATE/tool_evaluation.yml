@@ -1,0 +1,67 @@
+name: 📄 New Tool Evaluation
+description: Share your findings from testing an AI documentation tool.
+title: "[Evaluation] <Tool Name>"
+labels: [tool evaluation, contribution]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing! Please complete the fields below to help us review and include your tool evaluation in the repo.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: e.g. DeepWiki, GitHubGG, Joggr
+    validations:
+      required: true
+
+  - type: input
+    id: tool-url
+    attributes:
+      label: Tool Website / Repo URL
+      placeholder: e.g. https://deepwiki.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: What does this tool aim to do?
+      placeholder: Provide a brief summary of the tool’s focus (e.g. AI code summarization, documentation generation, etc.)
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Describe your testing experience
+      placeholder: What was easy? What worked? Any errors or surprises?
+    validations:
+      required: true
+
+  - type: textarea
+    id: outputs
+    attributes:
+      label: What artifacts were generated?
+      placeholder: List any files or outputs (e.g. README.md, diagrams, changelog, etc.)
+    validations:
+      required: false
+
+  - type: textarea
+    id: best-for
+    attributes:
+      label: Who would benefit most from this tool?
+      placeholder: e.g. Developers, Technical Support, Customer Support, Product Implementers
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else you'd like to add?
+      placeholder: Known limitations, export issues, license terms, etc.
+    validations:
+      required: false

@@ -1,4 +1,12 @@
+<!--
+Documentation research and outputs by LexTego Ltd.
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+See: https://creativecommons.org/licenses/by-sa/4.0/
+-->
+
 # AI Tool Review for Codebase Documentation
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Introduction
 
@@ -11,6 +19,8 @@ The evaluation was grounded in real-world needs, including:
 * Developer onboarding and familiarization
 * Internal technical support and root cause analysis
 * Broader implementation and stakeholder understanding
+
+The full details of what we tested is available [here](what_did_we_test.md)
 
 This document provides a narrative review of each tool tested. Where possible, we've described what each tool is best suited for, without scoring or ranking. Subjective impressions are included, but framed around practical outcomes.
 
@@ -28,15 +38,12 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Artifacts:** (Some outputs are unedited screenshots due to copy/export limitations)
 
-* [API Documentation](./deepwiki/api_doc.md)
-* [Changelog](./deepwiki/changelog.md)
-* [Glossary of Terms](./deepwiki/glossary_of_terms.md)
-* [Process Flow (Markdown)](./deepwiki/processflow.md)
-* [Sequence Diagram (Markdown)](./deepwiki/sequence_diagram.md)
+* [API Documentation](./qa_doc/deepwiki/api_doc.md)
+* [Changelog](./qa_doc/deepwiki/changelog.md)
+* [Glossary of Terms](./qa_doc/deepwiki/glossary_of_terms.md)
+* [Process Flow (Markdown)](./qa_doc/deepwiki/processflow.md)
+* [Sequence Diagram ](./qa_doc/deepwiki/sequence_diagram.md)
 * Process Flow Diagrams:  …&#x20;
-* [Sequence Diagram Image](./deepwiki/sequence_diagram.jpg)
-
----
 
 ## Dosu.dev
 
@@ -44,9 +51,7 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Experience:** Despite indexing our repo, the tool failed to generate any meaningful documentation.
 
-**Best for:** Potentially useful for developer Q\&A over time, but not for initial documentation needs.
-
----
+**Best for:** Potentially useful for developer Q&A over time, but not for initial documentation needs.
 
 ## Catio.tech
 
@@ -54,15 +59,11 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Experience:** Early access only – no interaction or documentation available at time of testing.
 
----
-
 ## DevDocs.io
 
 **Overview:** A comprehensive library of existing API docs.
 
 **Best for:** Quick API reference, not documentation creation.
-
----
 
 ## Doctave.com
 
@@ -70,15 +71,11 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Experience:** No AI-generated output identified during use; primarily a static documentation generator.
 
----
-
 ## Driver.ai
 
 **Overview:** Promises automated documentation generation.
 
 **Experience:** Signup process required a demo request – no trial available.
-
----
 
 ## Dyad.sh
 
@@ -86,15 +83,11 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Experience:** Requires technical setup and user guidance through prompts; limited by token quotas.
 
----
-
 ## Firstmate.io
 
 **Overview:** AI tool for making knowledge accessible across an org.
 
 **Experience:** Still in waitlist stage – no access during review period.
-
----
 
 ## GitBook
 
@@ -102,17 +95,13 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Experience:** Setup was smooth, but no documentation was generated from the connected repo.
 
----
-
 ## GitDiagram.com
 
 **Overview:** Tool for turning GitHub repos into visual diagrams.
 
 **Artifacts:**
 
-* [Architecture Diagram](./gitdiagram/diagram.md)
-
----
+* [Architecture Diagram](./qa_doc/gitdiagram/diagram.md)
 
 ## GitHubGG
 
@@ -124,17 +113,15 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Artifacts:**
 
-* [README](./githubgg/README.md)
-* [API Documentation](./githubgg/api_doc.md)
-* [Architecture](./githubgg/architecture.md)
-* [Changelog](./githubgg/changelog.md)
-* [Glossary](./githubgg/glossary_of_terms.md)
-* [Inline Comments](./githubgg/inline_comments.md)
-* [Process Flow](./githubgg/process_flow.md)
-* [Sequence Diagram](./githubgg/sequence.md)
-* [Summary](./githubgg/summary.md)
-
----
+* [README](./qa_doc/githubgg/README.md)
+* [API Documentation](./qa_doc/githubgg/api_doc.md)
+* [Architecture](./qa_doc/githubgg/architecture.md)
+* [Changelog](./qa_doc/githubgg/changelog.md)
+* [Glossary](./qa_doc/githubgg/glossary_of_terms.md)
+* [Inline Comments](./qa_doc/githubgg/inline_comments.md)
+* [Process Flow](./qa_doc/githubgg/process_flow.md)
+* [Sequence Diagram](./qa_doc/githubgg/sequence.md)
+* [Summary](./qa_doc/githubgg/summary.md)
 
 ## GitHub.me.uk
 
@@ -142,14 +129,12 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Artifacts:**
 
-* [README](./githubme/README.md)
-* [API Documentation](./githubme/api_doc.md)
-* [Glossary](./githubme/glossary.md)
-* [Summary](./githubme/summary.md)
-* [Additional Comments](./githubme/comments_to_files.md)
-* [Other Output](./githubme/output.md)
-
----
+* [README](./qa_doc/githubme/README.md)
+* [API Documentation](./qa_doc/githubme/api_doc.md)
+* [Glossary](./qa_doc/githubme/glossary.md)
+* [Summary](./qa_doc/githubme/summary.md)
+* [Additional Comments](./qa_doc/githubme/comments_to_files.md)
+* [Other Output](./qa_doc/githubme/output.md)
 
 ## Joggr.io
 
@@ -161,17 +146,15 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Artifacts:**
 
-* [README](./joggr/README.md)
-* [API Documentation](./joggr/api-documentation.md)
-* [Changelog](./joggr/change-log.md)
-* [Glossary](./joggr/glossary-of-terms.md)
-* [Inline Comments](./joggr/inline-comments.md)
-* [Process Flow](./joggr/process-flow.md)
-* [Sequence Diagram (raw)](./joggr/sequence.md)
-* [Sequence Diagram](./joggr/sequence-diagram.md)
-* [Summary](./joggr/summary-of-the-code-base.md)
-
----
+* [README](./qa_doc/joggr/README.md)
+* [API Documentation](./qa_doc/joggr/api-documentation.md)
+* [Changelog](./qa_doc/joggr/change-log.md)
+* [Glossary](./qa_doc/joggr/glossary-of-terms.md)
+* [Inline Comments](./qa_doc/joggr/inline-comments.md)
+* [Process Flow](./qa_doc/joggr/process-flow.md)
+* [Sequence Diagram (raw)](./qa_doc/joggr/sequence.md)
+* [Sequence Diagram](./qa_doc/joggr/sequence-diagram.md)
+* [Summary](./qa_doc/joggr/summary-of-the-code-base.md)
 
 ## Komment.ai
 
@@ -179,11 +162,9 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Artifacts:**
 
-* [README](./komment_ai/README.md)
-* [API Diagram](./komment_ai/api01.jpg)
-* [Other Output](./komment_ai/other.md)
-
----
+* [README](./qa_doc/komment_ai/README.md)
+* [API Diagram](./qa_doc/komment_ai/api01.jpg)
+* [Other Output](./qa_doc/komment_ai/other.md)
 
 ## Mintlify.com
 
@@ -191,15 +172,11 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Experience:** Encountered setup errors and repo access issues. No documentation was produced.
 
----
-
 ## ReadMe.com
 
 **Overview:** API documentation platform with AI suggestions.
 
 **Best for:** Hosting and presenting OpenAPI specs, not full codebase docs.
-
----
 
 ## Swark (VSCode extension)
 
@@ -207,17 +184,13 @@ This document provides a narrative review of each tool tested. Where possible, w
 
 **Artifacts:**
 
-* [Architecture Diagram](./swark/2025-04-17__15-07-30__diagram.md)
-
----
+* [Architecture Diagram](./qa_doc/swark/2025-04-17__15-07-30__diagram.md)
 
 ## Swimm.io
 
 **Overview:** AI-powered docs generation tool with focus on legacy and mainframe systems.
 
 **Experience:** Not tested due to niche positioning.
-
----
 
 ## Additional Tool Testing
 
@@ -229,17 +202,13 @@ As we continue exploring the landscape of AI tools for documentation, future upd
 
 We welcome contributions or suggestions for tools to test.
 
----
-
 ## Licensing and Attribution
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material, provided that you give appropriate credit. Please attribute as follows:
 
-> Documentation research and outputs by **LexTego Ltd**, available under CC BY 4.0.
+> Documentation research and outputs by **LexTego Ltd**, available under CC BY-SA 4.0.
 
 We encourage contributions and comparisons, and welcome any pull requests that help improve or extend the testing methodology.
-
----
 
 ## Summary & Next Steps
 
